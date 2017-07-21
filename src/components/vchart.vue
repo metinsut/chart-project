@@ -15,7 +15,7 @@ export default {
     return {
     }
   },
-  created(){
+  mounted(){
     this.runchart();
   },
   methods: {

@@ -16,7 +16,7 @@ export default {
       msg: 'Home'
     }
   },
-  created(){
+  mounted(){
     var chart = AmCharts.makeChart( "chartdiv", {
       "type": "serial",
       "theme": "light",
