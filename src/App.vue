@@ -34,7 +34,7 @@
       <v-toolbar-side-icon @click.native.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title>GKFX Chart Project</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-items>
+      <v-toolbar-items class="hidden-sm-only">
         <v-btn flat v-for="item in items" :keys="item.title" :to="item.link">
           <v-icon left fa class="white--text text--darken-2">{{item.icon}}</v-icon>
           {{item.title}}
